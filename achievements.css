@@ -1,0 +1,78 @@
+/* ниже код от серого фона всего блока с карточками */
+
+.achievements {
+  display: flex;
+  border-radius: 20px;
+  justify-content: space-between;
+  background: hsla(317, 100%, 76%, 0.746);
+  margin: 0;
+  padding: 20px;
+  flex-direction: column;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px pink;
+}
+
+.achievements__name {
+  font-size: 70px;
+  line-height: 95px;
+  margin: 0 0 20px 0;
+  font-family: "Roboto Slab", serif;
+  src: url(../../fonts/Nickainley-Normal.otf);
+  text-shadow: 1px 1px 20px rgb(248, 248, 248);
+  color: #ff2eaf;
+  font-style: italic;
+}
+
+.achievements__note {
+  font-size: 25px;
+  line-height: 35px;
+  color: #fff;
+  text-shadow: 1px 1px 2px pink;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+.achievements__script {
+  font-size: 20px;
+  line-height: 35px;
+  color: #fff;
+  text-shadow: 1px 1px 2px pink;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  font-style: italic;
+  text-shadow: 1px 1px 20px rgb(248, 248, 248);
+  color: #ff2eaf;
+}
+
+.table__first {
+  display: flex;
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 400;
+  list-style-type: none;
+  text-align: center;
+  gap: 10px;
+  margin: 0;
+  padding: 0 70px;
+  justify-content: space-between;
+}
+
+.table__one {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 310px;
+}
+
+.table__link {
+  background: hsla(0, 0%, 100%, 0.746);
+  border-radius: 12px;
+  padding: 15px;
+  color: #ff2eaf;
+  font-weight: 400;
+}
+
+.table__link:hover {
+  transform: scale(1.1);
+}

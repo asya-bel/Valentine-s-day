@@ -1,0 +1,44 @@
+.about-company {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.about-company__inner {
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-company__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 121%;
+  color: #26aa9a;
+  margin: 0;
+}
+
+.about-company__text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 147%;
+  color: #ffffff;
+  margin: 0;
+}
+
+/* кнопка */
+
+.about-company__link {
+  margin: 20px auto 0 0;
+  width: 180px;
+  color: #ffffff;
+  border-radius: 8px;
+  border: 2px solid #26aa9a;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+}
